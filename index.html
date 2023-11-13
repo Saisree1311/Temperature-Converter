@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="box">
+            <div class="block">
+            <h1 class="heading">Temperature Converter</h1>
+            <svg  class="icon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-thermometer" viewBox="0 0 16 16">
+                <path d="M8 14a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+                <path d="M8 0a2.5 2.5 0 0 0-2.5 2.5v7.55a3.5 3.5 0 1 0 5 0V2.5A2.5 2.5 0 0 0 8 0zM6.5 2.5a1.5 1.5 0 1 1 3 0v7.987l.167.15a2.5 2.5 0 1 1-3.333 0l.166-.15V2.5z"/>
+              </svg>
+            </div>
+            <div class="input">
+                <div class="celsius_input">
+                    <p class="header">Celsius</p>
+                    <input type="number" name="celsius" id="cel" placeholder="Celsius">
+                </div>
+                <div class="fahrenheit_input">
+                    <p class="header">Fahrenheit</p>
+                    <input type="number" name="fahrenheit" id="far" placeholder="Fahrenheit">
+                </div>
+                <div class="kelvin_input">
+                    <p class="header">Kelvin</p>
+                    <input type="number" name="kelvin" id="kel" placeholder="Kelvin">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
